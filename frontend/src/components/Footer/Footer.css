@@ -1,0 +1,62 @@
+.footer{
+    background-color: rgb(26, 26, 26);
+    padding: 3vmax;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+}
+.footer > div > h5{
+    color: white;
+    border-bottom: 1px solid white;
+    width: 120px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+.footer > div > p{
+    color: white;
+    width: 85%;
+}
+.footer > div > h6{
+    color: white;
+    padding: 10px 0;
+}
+.footer > div:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer > div > a{
+    font-size: 3vmax;
+    color: white;
+    transition: all 0.3s;
+}
+.footerIcon{
+    color: #f9f9f9;
+    font-size: 3vmax;
+    margin-right: 10px;
+}
+.footerContactBtn{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+
+}
+.footerContactBtn > p{
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    transition: all 0.5s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    width: 150px;
+}
+.footerContactBtn > p:hover{
+    background-color: unset;
+    color: white;
+}
+
+.footerIcon:nth-child(1):hover{
+    color: rgb(64, 88, 226);
+}
